@@ -159,7 +159,6 @@ from xgboost import plot_tree
 plot_tree(best_model, num_trees=0, rankdir='LR')
 
 # plot var imp
-%matplotlib inline
 import seaborn as sns
 sns.set(font_scale = 1.5)
 
